@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+#header {
+    background-color: black;
+    height: 100px;
+    line-height: 80px;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+}
+
+.nav-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a {
+    color: white;
+    font-size: 40px;
+}
+
+.menu a {
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 0 16px;
+}
+
+#banner {
+    background: url(/img/car.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.bnr-overlay {
+    padding: 300px;
+    background-color: rgba(137, 173, 207, 0.308);
+}
+
+#banner h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 32px;
+    text-align: center;
+}
+
+#banner a {
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 15px 22px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+#service {
+    padding: 80px 0;
+}
+
+.ser-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ser-box {
+    flex-basis: 28%;
+    background: url(/img/box_bg.jpg);
+    padding: 15px 25px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgb(179, 155, 155);
+}
+
+.ser-box:hover {
+    background: url(/img/box_bg.jpg);
+    padding: 15px 25px;
+    text-align: center;
+    box-shadow: 8px 8px 8px 8px rgb(170, 61, 61);
+}
+
+.ser-box p,
+a {
+    color: white;
+}
+
+#grid {
+    background: url(/img/banner.jpg);
+    background-position: center;
+    top: 0px;
+    position: sticky;
+    z-index: 2;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+    margin: auto;
+}
+
+.col {
+    flex-basis: 15%;
+    padding: 10px 5px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.col h3 {
+    text-transform: capitalize;
+}
+
+.col:hover {
+    flex-basis: 15%;
+    padding: 10px 5px;
+    border: 2px solid rgb(250, 249, 249);
+    text-align: center;
+    background-color: rgba(33, 95, 97, 0.425);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#card {
+    background: url(/img/corona.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.card-container {
+    padding: 40px;
+}
+
+.card-row {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-col {
+    background: url(/img/card\ bg.jpg);
+    flex-basis: 30%;
+    padding: 15px 10px;
+}
+
+.card-col:hover {
+    background: url(/img/card\ bg.jpg);
+    flex-basis: 30%;
+    font-weight: bold;
+}
+
+.card-col h2,
+p {
+    padding: 15px 10px;
+}
+
+#gallery {
+    background: url(/img/gallery-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position: fixed;
+}
+
+.gallery-container {
+    padding: 20px 0;
+    margin-top: 10px;
+}
+
+.gallery-row {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery-col {
+    border: 5px solid rgb(247, 241, 241);
+    display: inline-block;
+    align-items: center;
+    margin: 3px;
+}
+
+.gallery-col:hover {
+    border: 5px solid rgb(10, 9, 9);
+}
+
+.gallery-col img {
+    width: 280px;
+    height: 400px;
+}
